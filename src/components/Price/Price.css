@@ -1,0 +1,151 @@
+#price{
+  padding: 85px 0 115px;
+}
+
+.price__title{
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  color: #ffffffcc;
+  margin-bottom: 20px;
+}
+
+.price__text{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff66;
+  margin-bottom: 84px;
+}
+
+.price__list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.price__item{
+  padding-right: 21px;
+  padding-left: 21px;
+}
+
+.price__wrapper{
+  background: linear-gradient(180deg, #202246 -53.38%, #282b574f 100%);
+  border-radius: 20px;
+  padding: 37px 36px 36px 33px;
+  min-height: 515px;
+}
+
+.price__intro{
+  padding-bottom: 29px;
+  border-bottom: 1.5px solid #272953;
+  margin-bottom: 29px;
+}
+
+.price__img-holder{
+  margin-right: 30px;
+}
+
+.price__cost{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffffcc;
+  display: inline-block;
+}
+
+.price__big-num{
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  color: #F5453D;
+  margin-right: 4px;
+}
+
+.price__dollar{
+  font-size: 14px;
+  line-height: 150%;
+  margin-right: 2px;
+  display: inline-block;
+}
+
+.price__num{
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 150%;
+  color: #ffffffcc;
+}
+
+.price__inner-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.price__inner-item{
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffffcc;
+  padding-left: 22px;
+  position: relative;
+}
+
+.price__inner-item:not(:last-child){
+  margin-bottom: 16px;
+}
+
+.price__inner-item::before{
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #9799ce;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.price__btn{
+  opacity: 0.5;
+  border: 1px solid #f5443b;
+  border-radius: 6px;
+  background-color: transparent;
+  padding: 16px 70px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #f5443b;
+  position: absolute;
+  bottom: 36px;
+  left: 36px;
+  min-width: 290px;
+  transition: all 0.3s ease;
+}
+
+.current:hover{
+  background-color: #f5443b;
+  color: #171836;
+}
+
+.express{
+  opacity: 1;
+}
+
+.express:hover{
+  background-color: #f5443b;
+  color: #171836;
+}
+
+.premium{
+  background-color: #f5443b;
+  opacity: 1;
+  color: #fff;
+}
+
+.premium:hover{
+  border: 1px solid #f5443b;
+  background-color: transparent;
+  color: #f5443b;
+}

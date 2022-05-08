@@ -1,0 +1,189 @@
+.hero{
+  padding-top: 38px;
+}
+
+.hero__left{
+  height: 775px;
+  background-image: url("../../images/student-hero-section.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.hero__lamp{
+  position: absolute;
+  top: 153px;
+  left: 75px;
+  background: linear-gradient(180deg, rgba(76, 94, 157, 0.9) -32.08%, rgba(23, 24, 54, 0.9) 127.36%);
+  border-radius: 20px;
+  transform: rotate(-8.82deg);
+  padding: 11px;
+}
+
+.hero__book{
+  position: absolute;
+  top: 42px;
+  right: 139px;
+  background: linear-gradient(180deg, rgba(76, 94, 157, 0.9) -32.08%, rgba(23, 24, 54, 0.9) 127.36%);
+  border-radius: 20px;
+  transform: rotate(12.79deg);
+}
+
+.hero__right{
+  max-width: 508px;
+}
+
+.hero__title{
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+  color: #ffffffcc;
+  margin-bottom: 24px;
+  max-width: 484px;
+}
+
+.hero__text{
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff66;
+  margin-bottom: 56px;
+}
+
+.hero__form{
+  margin-bottom: 48px;
+}
+
+.hero__input-box{
+  background: #1f2143;
+  border-radius: 12px;
+  padding: 12px 12px 12px 32px;
+}
+
+.hero__search{
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+}
+
+.hero__search::placeholder{
+  color: #ffffff66;
+}
+
+.hero__search:focus{
+  outline: none;
+}
+
+.hero__btn{
+  background: #282b57;
+  border-radius: 6px;
+  padding: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.hero__btn:hover{
+  outline: 1px solid #9a9ccb;
+  background-color: transparent;
+}
+
+.bx-search{
+  color: #9a9ccb;
+  font-size: 20px;
+}
+
+.hero__suggestion{
+  font-size: 18px;
+  line-height: 150%;
+  display: inline-block;
+  color: #ffffff66;
+  margin-bottom: 34px;
+}
+
+.hero__list{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.hero__item{
+  border: 1px solid #9a9ccb99;
+  border-radius: 8px;
+  background-color: transparent;
+  padding: 8px 18px;
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.hero__item:not(:last-child){
+  margin-right: 24px;
+}
+
+.hero__item:nth-child(3){
+  margin-right: 0;
+}
+
+.hero__suggestion-btn{
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  line-height: 150%;
+  color: #9a9ccb99;
+  transition: all 0.3s ease;
+}
+
+.hero__item:hover{
+  background-color: #9a9ccb;
+}
+
+.hero__item:hover .hero__suggestion-btn{
+  color: #171836;
+}
+
+.hero__students-box{
+  max-width: 363px;
+  background: linear-gradient(180deg, #4c5e9dcc -32.08%, #171836cc 127.36%);
+  border-radius: 20px;
+  padding: 20px;
+  position: absolute;
+  right: 90px;
+  bottom: 44px;
+}
+
+.hero__student-holder:not(:first-child){
+  margin-left: -16px;
+}
+
+.hero__students-info{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  color: #bbbbc4;
+}
+
+.hero__student-btn{
+  background: #8087b8;
+  border: 1px solid #6668aa;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bx-plus{
+  color: #171836;
+  font-size: 30px;
+}
+
+.hero__students--red{
+  color: #fb5048;
+  display: inline-block;
+  margin-left: 2px;
+}
