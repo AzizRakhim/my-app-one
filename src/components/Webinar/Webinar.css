@@ -82,15 +82,3 @@ iframe{
   transform: translateX(10px);
 }
 
-.webinar-item > iframe {
-  cursor: pointer;
-  margin: 6% 8%;
-  transition: margin 0.4s ease;
-}
-.webinar-item.center > iframe {
-  cursor: auto;
-  margin: 0;
-}
-.webinar-item:not(.center) > iframe:hover {
-  opacity: .75;
-}

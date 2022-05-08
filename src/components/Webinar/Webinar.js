@@ -1,25 +1,6 @@
 import React from "react";
 import "../../App.css";
 import "./Webinar.css";
-import $ from 'jquery';
-
-var $owl = $('.webinar__list');
-
-$owl.children().each( function( index ) {
-  $(this).attr( 'data-position', index ); // NB: .attr() instead of .data()
-});
-
-$owl.owlCarousel({
-  center: true,
-  loop: true,
-  items: 5,
-});
-
-$(document).on('click', '.webinar__item>iframe', function() {
-  // see https://owlcarousel2.github.io/OwlCarousel2/docs/api-events.html#to-owl-carousel
-  var $speed = 300;  // in ms
-  $owl.trigger('to.webinar__item.webinar__list', [$(this).data( 'position' ), $speed] );
-});
 
 function Webinar() {
   return (
